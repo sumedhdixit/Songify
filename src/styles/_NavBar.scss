@@ -1,0 +1,27 @@
+.navbar {
+    min-height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    button {
+        background: transparent;
+        outline: none;
+        border: 2px solid rgb(65, 65, 65);
+        border-radius: 10px;
+        width: 90px;
+        display: flex;
+        justify-content: space-between;
+        padding: .5rem;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        z-index: 20;
+        &:hover {
+            background: rgb(60, 199, 18);
+            color: white
+        }
+        color: white;
+    }
+    h1 {
+        font-size: large;
+    }
+}
